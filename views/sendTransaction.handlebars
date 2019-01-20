@@ -1,0 +1,38 @@
+<section class="py-2">
+  <div class="row">
+    <div class="">
+      <!-- <h1 class="display-3 mt-1 pt-1">Lock it up!</h1> -->
+      <p class="lead">Send Transaction</p>
+    </div>
+
+  </div>
+  <div class="col-md-6">
+  	<div class="row">
+          <div class="control-group" id="fields">
+
+              <div class="controls">
+                  <form role="form" autocomplete="off" method="POST" action="/unlockWallet">
+
+                      <h3>Send Amount</h3>
+                      <input size="38" style="line-height:25px;color:black" name="bitcoinAddress" type="text" placeholder="Send to Bitcoin Public Address"></input>
+                      <input size="15" style="line-height:25px;color:black" name="amount" type="text" placeholder="Satoshis"></input>
+                      <br><br>
+                      <div class="entry input-group col-xs-3">
+                          <input size="50" style="line-height:25px;color:black" name="Pfields" type="text" placeholder="Input Bitcoin Private Key"></input>
+                      	<span class="input-group-btn">
+                              <button class="btn btn-success btn-add" type="button">
+                                  <span class="glyphicon glyphicon-plus"></span>
+                              </button>
+                          </span>
+                      </div>
+                      <!-- <button class="btn btn-success" type="submit">Get Multisig Wallet</button> -->
+                  </form>
+              <br>
+              <small>Press <span class="glyphicon glyphicon-plus gs"></span> to add another Bitcoin Private Key</small><br><br>
+              </div>
+              <input class="btn btn-success" type="submit" onclick="document.forms[0].submit();" />
+          </div>
+  	</div>
+</div>
+
+</section>

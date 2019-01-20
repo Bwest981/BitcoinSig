@@ -1,0 +1,21 @@
+{
+  "name": "ethsig",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Brandon West",
+  "license": "ISC",
+  "devDependencies": {
+    "bitcoinjs-lib": "^4.0.2",
+    "bitcore-explorers": "^1.0.1",
+    "bitcore-lib": "^0.16.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "web3": "^1.0.0-beta.37"
+  },
+  "dependencies": {}
+}
