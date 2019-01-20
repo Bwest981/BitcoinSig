@@ -6,6 +6,7 @@ const bitcore = require("bitcore-lib");
 var explorers = require('bitcore-explorers');
 var insight = new explorers.Insight();
 
+const rpcURL = "ADD YOUR API HERE";
 const Web3 = require('web3');
 const web3 = new Web3(rpcURL);
 //web3js = new web3(web3.currentProvider);
